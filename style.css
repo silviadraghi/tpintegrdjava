@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   /* background-color: black; */ 
+}
+.fondologo{
+    background-color: rgb(39, 38, 38);
+    width: 100%;
+    display: flex;
+}
+.enlogo{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+.enbarranav{
+    color: rgb(139, 137, 137);
+    font-size: 13px;
+}
+.enbarranav-blc{
+    color: white(252, 251, 251);
+}
+.enbarranav-vde{
+    color: rgb(14, 89, 6);
+    font-size: 13px;
+}
+.enbarranav:hover{
+    color: rgb(220, 220, 9);
+}
+.fondomain{
+
+  
+    position: relative;
+    opacity: 0.8
+}
+.textomain{
+   position: absolute;
+   top: 200px;
+   right: 150px;
+   
+   width: 700px;
+   height: 300px;
+   
+   
+  
+}
+.cajatexto{
+    text-align: right;    
+    color: white;
+}
+
+.botones{
+    width: 700px;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    
+   
+   
+   
+}
+.boton1{
+    
+   
+    width: auto;
+}   
+.boton2{
+    margin-left: 10px;
+    width: auto;
+    
+}
+.dosbotones{
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    
+    
+}
+.botonjava{
+    margin-right: 5px;
+
+     width: 60px;
+    height: 15px;
+    background-color: #fec107;
+    font-weight: bold;
+    color: black;
+    border-radius: 15%;
+    
+}
+.botonreac{
+    border-radius: 15%;
+    /* margin: 5px; */
+    width: 40px;
+    height:15px;
+    background-color: #16a387;
+    color: white;
+    font-weight: bold;
+}
+.botonnegocios{
+    margin-right: 5px;
+
+    width: 60px;
+    height: 15px;
+    background-color: #6c757e;
+    font-weight: bold;
+    color: white;
+    border-radius: 15%;
+    
+}
+.botonstartup{
+    border-radius: 15%;
+    /* margin: 5px; */
+    width: 60px;
+    height:15px;
+    background-color: #db3644;
+    color: white;
+    font-weight: bold;
+}
+.tituhonolulu{
+
+    color: white;
+    margin-top: 5px;
+    
+
+    /* font-weight: bold; */
+}
+.textohonolulu{
+    
+    color: white;
+    font-size: 12px;
+}
+.fondohonolulu{
+    padding-left: 5px;
+    border-left: 1px solid white;
+    background-color: #353A40;
+    
+}
+.formu1{
+    font-size: 11px;
+}
+.formu2{
+    font-size: 13px;
+}
+.paraboton{
+    background-color:#96c93e;
+    color: white;
+}
+.parapie{
+    margin-top: 10px;
+    height: 60px;
+    background-color: rgb(2, 2, 65);
+}   
+.parapienav{
+    width: 120px;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+.colorborde{
+    border: red solid 1px;
+}
+.parattlpagar{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    background-color: rgb(185, 248, 248);
+}
+.parattlpagar2{
+    background-color: rgb(185, 248, 248);
+    
+    
+}
